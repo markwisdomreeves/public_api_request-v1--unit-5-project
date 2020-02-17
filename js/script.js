@@ -51,7 +51,7 @@ function createModalBox(user) {
               <hr>
               <p class="modal-text">${user.phone}</p>
               <p class="modal-text">${user.location.street.number} ${user.location.street.name}, ${user.location.city}, ${user.location.state} ${user.location.postcode}</p>
-              <p class="modal-text">Birthday: ${user.dob.date.slice(5,7)}-${user.dob.date.slice(8,10)}-${user.dob.date.slice(0,4)}</p>
+              <p class="modal-text">Birthday: ${user.dob.date.slice(5,7)}/${user.dob.date.slice(8,10)}/${user.dob.date.slice(0,4)}</p>
           </div>
       </div>`;    
   body.appendChild(divOverlay);
